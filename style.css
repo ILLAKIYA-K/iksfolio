@@ -516,67 +516,71 @@ footer{
     line-height: 1;
     letter-spacing: -0.1px;
     }
-    .btn-two
-    {
-        margin-right: 65%;
-    }
-
-
-
- .btn-mobile-nav {
-    display: block;
-    z-index: 9999;
-  }
-
-  .main-nav {
-    background-color: rgba(255, 255, 255, 0.9);
-    -webkit-backdrop-filter: blur(5px);
-    backdrop-filter: blur(10px);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    transform: translateX(100%);
-
+    .main-nav-list{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.5s ease-in;
-
+    flex-direction: column;
+    gap: 48px;
+    background-color: #fff;
+    padding: 100px;
+    width: 282px;
     
-    opacity: 1;
+    text-align: center;
 
-    /* 2) Make it unaccessible to mouse and keyboard */
-    pointer-events: none;
+      /* margin-top: 102px; 
+    margin-left: 74; */
+    box-shadow: 0 0 3.2rem #000;
 
-    /* 3) Hide it from screen readers */
-    visibility: hidden;
+    position: absolute;
+    top: 1px;
+    
+    right: 0;
+    /* transform: transition(50px,-50px); */
+    /* left: 10.2rem;
+    top: 10.2rem; */
+    /* right:-10.2rem; */
   }
 
-  .nav-open .main-nav {
-    opacity: 1;
-    pointer-events: auto;
-    visibility: visible;
-    transform: translateX(0);
-  }
+  /* .overlay{
+    position: absolute;
+  top: 0;
+  right: 67%;
 
-  .nav-open .icon-mobile-nav[name="close-outline"] {
-    display: block;
-  }
+  margin-right: 56%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(1px);
+  z-index: 5;
 
-  .nav-open .icon-mobile-nav[name="menu-outline"] {
+  } */
+
+  .hidden{
     display: none;
   }
 
-  .main-nav-list {
-    flex-direction: column;
-    gap: 4.8rem;
+  .btnse{
+    display: block;
+    padding: 1.2rem;
+    background-color: #886ee8;
+    border: none;
+    font-size: 2.2rem;
+    cursor: pointer;
+    
   }
 
-  .main-nav-link:link,
-  .main-nav-link:visited {
-    font-size: 3rem;
+
+  .btn2{
+    display: block;
+    padding: 1.2rem;
+    
+    background-color: #fff;
+    border: none;
+    font-size: 2.2rem;
+    cursor: pointer;
+
+    position: absolute;
+    top:5%;
+    right: 10%;
   }
 }
 
