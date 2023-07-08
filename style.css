@@ -387,6 +387,21 @@ figure{
   .sticky .section-hero {
     margin-top: 9.6rem;
   }
+
+ .btnse{
+    display: block;
+    padding: 1.2rem;
+    background-color: #886ee8;
+    border: none;
+    font-size: 2.2rem;
+    cursor: pointer;
+
+    display: none;
+  }
+
+  .btn2{
+    display: none;
+  }
   
   
 
