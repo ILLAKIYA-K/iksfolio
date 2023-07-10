@@ -534,7 +534,7 @@ footer{
     .main-nav-list{
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 20px;
     background-color: #886ee8;
     padding: 100px;
     width: 100%;
