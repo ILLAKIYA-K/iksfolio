@@ -534,10 +534,10 @@ footer{
     .main-nav-list{
     display: flex;
     flex-direction: column;
-    gap: 48px;
-    background-color: #fff;
+    gap: 24px;
+    background-color: #886ee8;
     padding: 100px;
-    width: 282px;
+    width: 100%;
     
     text-align: center;
 
@@ -546,7 +546,7 @@ footer{
     box-shadow: 0 0 3.2rem #000;
 
     position: absolute;
-    top: 1px;
+    top: 90%;
     
     right: 0;
     /* transform: transition(50px,-50px); */
@@ -588,7 +588,7 @@ footer{
     display: block;
     padding: 1.2rem;
     
-    background-color: #fff;
+    background-color: #886ee8;
     border: none;
     font-size: 2.2rem;
     cursor: pointer;
