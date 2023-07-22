@@ -367,7 +367,7 @@ tr {
 
   .main-nav{
     display: flex;
-    gap: 3%;
+    gap: 4px;
    
     height: 90px;
   padding: 24px;
