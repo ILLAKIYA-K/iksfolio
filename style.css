@@ -367,7 +367,7 @@ tr {
 
   .main-nav{
     display: flex;
-    gap: 4px;
+    gap: 3px;
    
     height: 90px;
   padding: 24px;
@@ -377,12 +377,16 @@ tr {
   .main-nav-list{
    display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 48px;
+    width: 100%;
     padding: 78px;
     height: 350px;
-    padding-right: 40%;
-   padding-left: 100px;
-   
+    /* padding-right: 170px;
+   padding-left: 170px; */
+   position: absolute;
+   top: 12%;
+  right: 1%;
     
    
     background-color:#886ee8;
