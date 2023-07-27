@@ -589,7 +589,7 @@ tr {
     grid-template-columns: 1fr;
     align-items: center;
     padding: 96px;
-    background-color: #886ee8;
+    background-color: white;
   }
   .buttons {
     align-items: center;
